@@ -1,0 +1,38 @@
+<%- include ('template');-%>
+
+
+<style>
+    .cont{
+        padding: 100px;
+    }
+    .btn {
+        display: block;
+        margin: 20px 0px ;
+    }
+    .input{
+        margin: 20px 0px;
+        display: block;
+        width: 50%;
+    }
+</style>
+
+
+<div class="cont">
+    <div class="div">
+        <h1>
+            Compose Blog
+        </h1>
+    
+        <form action="/compose" method="post">
+            <input type="text" class="input" placeholder="Title"  name="title"  required >
+            <textarea name="body" id="" cols="76" rows="5" placeholder="Body" required ></textarea>
+            <button type="submit" class="btn btn-primary">Post</button>
+        </form>
+    </div>
+</div>
+
+
+
+<footer  class="fixed-bottom" >
+    ©️ 2022 web.pJ
+</footer>

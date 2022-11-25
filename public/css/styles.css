@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+ 
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F0EBE3;
+}
+nav{
+    background-color: #F0EBE3;
+}
+.nav-container{
+    border-style:solid;
+    border-color: #576F72;
+    border-width:0px 0px 2px;
+    width: 97%;
+}
+#brand{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:#3F4E4F;
+    font-family:'Rubik', sans-serif;
+}
+a:hover{
+    color: black;
+}
+
+h1{
+    font-size: 5rem;
+    font-family:'Rubik', sans-serif;
+    margin: 0px;
+}
+h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    margin-right: 0px; 
+}
+.rightAside{
+    text-align: center;
+}
+.leftAside{
+    background: url("/images/element 1.svg");
+    background-repeat: round;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+footer{
+    background-color: #E4DCCF;
+    
+    font-family:'Rubik', sans-serif;
+    text-align: center;
+}
+
+
+p{
+    font-family:'Rubik', sans-serif;
+}
+.homeP{
+    height: auto;
+    width: 77%;
+    margin: 0px auto;
+    padding: 50px;
+    font-size: 3rem;
+    text-align: center;
+}
+.p1st{
+    margin-top: 100px;
+}
